@@ -1,7 +1,21 @@
 # Restaurantes-y-pedidos
 Análisis y visualización de una base de datos de pedidos en restaurantes. Hecho con SQL y Python.
 
-Este archivo realiza un análisis completo de un conjunto de datos relacional sobre restaurantes, pedidos y clientes, obtenidos de una base de datos SQL. Aquí está el resumen de lo que se hizo:
+Este conjunto de datos se obtiene de la base de datos de SQL Server, por lo que los archivos (tablas) están relacionados entre sí. El conjunto de datos incluye la categoría, información del restaurante, información de los miembros, información del pedido, fecha, hora, ubicación, información financiera y más...
+
+**Preguntas:**
+***¿En qué ciudad y en qué período del día los miembros hacen más pedidos?***
+***¿Cuál es la proporción de tipos de comidas en los restaurantes de cada ciudad?***
+***¿Cuál es la proporción de pedidos en las ciudades con más restaurantes italianos?***
+***¿Qué ciudades tienen más comidas veganas?***
+***¿Cuál es la diferencia en el rango de precios de las comidas frías o calientes?***
+***¿Cuál es la correlación entre el sexo de los miembros y el tipo de servicio?***
+***¿Quiénes son los clientes que más pagan cada mes y sus ciudades?***
+***¿Cuál es el total de pedidos mensuales y el total acumulado de cada restaurante a lo largo del año?***
+***¿Cuál es la diferencia de pedidos mensuales para cada dos meses consecutivos en cada restaurante?***
+***¿Cuáles son los meses en los que las ventas totales de cada restaurante son mayores que las ventas totales mensuales promedio del restaurante?***
+
+#Desarrollo
 **1. Contexto del conjunto de datos**
 -Incluye información sobre ciudades, tipos de comida, miembros, detalles de pedidos, restaurantes y tipos de servicios.
 -Permite responder preguntas relacionadas con hábitos de consumo, desempeño de restaurantes y preferencias de comida.
